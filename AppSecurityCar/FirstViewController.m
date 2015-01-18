@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 DroidFx. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "FirstViewController.h"
 
-@interface ViewController ()
+@interface FirstViewController ()
 
 @end
 
-@implementation ViewController
+@implementation FirstViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		C22342681A64DC1100645C32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C22342671A64DC1100645C32 /* main.m */; };
 		C223426B1A64DC1100645C32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C223426A1A64DC1100645C32 /* AppDelegate.m */; };
-		C223426E1A64DC1100645C32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C223426D1A64DC1100645C32 /* ViewController.m */; };
+		C223426E1A64DC1100645C32 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C223426D1A64DC1100645C32 /* FirstViewController.m */; };
 		C22342711A64DC1100645C32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C223426F1A64DC1100645C32 /* Main.storyboard */; };
 		C22342731A64DC1100645C32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22342721A64DC1100645C32 /* Images.xcassets */; };
 		C22342761A64DC1100645C32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C22342741A64DC1100645C32 /* LaunchScreen.xib */; };
 		C22342821A64DC1100645C32 /* AppSecurityCarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C22342811A64DC1100645C32 /* AppSecurityCarTests.m */; };
+		C223428C1A64DD0E00645C32 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C223428B1A64DD0E00645C32 /* Default-568h@2x.png */; };
+		C223428F1A64E04500645C32 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C223428E1A64E04500645C32 /* SecondViewController.m */; };
+		C22342911A64E5A000645C32 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C22342901A64E5A000645C32 /* logo.png */; };
+		C2BD4E8E1A661C08006CFB2B /* pass.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BD4E8C1A661C08006CFB2B /* pass.png */; };
+		C2BD4E8F1A661C08006CFB2B /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BD4E8D1A661C08006CFB2B /* user.png */; };
+		C2BD4E911A663396006CFB2B /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BD4E901A663396006CFB2B /* phone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +38,21 @@
 		C22342671A64DC1100645C32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C22342691A64DC1100645C32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C223426A1A64DC1100645C32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C223426C1A64DC1100645C32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C223426D1A64DC1100645C32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C223426C1A64DC1100645C32 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C223426D1A64DC1100645C32 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		C22342701A64DC1100645C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C22342721A64DC1100645C32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C22342751A64DC1100645C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C223427B1A64DC1100645C32 /* AppSecurityCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppSecurityCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22342801A64DC1100645C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C22342811A64DC1100645C32 /* AppSecurityCarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppSecurityCarTests.m; sourceTree = "<group>"; };
+		C223428B1A64DD0E00645C32 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C223428D1A64E04500645C32 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C223428E1A64E04500645C32 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C22342901A64E5A000645C32 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		C2BD4E8C1A661C08006CFB2B /* pass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pass.png; sourceTree = "<group>"; };
+		C2BD4E8D1A661C08006CFB2B /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		C2BD4E901A663396006CFB2B /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +76,8 @@
 		C22342591A64DC1100645C32 = {
 			isa = PBXGroup;
 			children = (
+				C223428B1A64DD0E00645C32 /* Default-568h@2x.png */,
+				C2BD4E871A66192B006CFB2B /* images */,
 				C22342641A64DC1100645C32 /* AppSecurityCar */,
 				C223427E1A64DC1100645C32 /* AppSecurityCarTests */,
 				C22342631A64DC1100645C32 /* Products */,
@@ -83,9 +98,11 @@
 			children = (
 				C22342691A64DC1100645C32 /* AppDelegate.h */,
 				C223426A1A64DC1100645C32 /* AppDelegate.m */,
-				C223426C1A64DC1100645C32 /* ViewController.h */,
-				C223426D1A64DC1100645C32 /* ViewController.m */,
+				C223426C1A64DC1100645C32 /* FirstViewController.h */,
+				C223426D1A64DC1100645C32 /* FirstViewController.m */,
 				C223426F1A64DC1100645C32 /* Main.storyboard */,
+				C223428D1A64E04500645C32 /* SecondViewController.h */,
+				C223428E1A64E04500645C32 /* SecondViewController.m */,
 				C22342721A64DC1100645C32 /* Images.xcassets */,
 				C22342741A64DC1100645C32 /* LaunchScreen.xib */,
 				C22342651A64DC1100645C32 /* Supporting Files */,
@@ -117,6 +134,17 @@
 				C22342801A64DC1100645C32 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2BD4E871A66192B006CFB2B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C2BD4E901A663396006CFB2B /* phone.png */,
+				C22342901A64E5A000645C32 /* logo.png */,
+				C2BD4E8D1A661C08006CFB2B /* user.png */,
+				C2BD4E8C1A661C08006CFB2B /* pass.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +228,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C22342711A64DC1100645C32 /* Main.storyboard in Resources */,
+				C22342911A64E5A000645C32 /* logo.png in Resources */,
+				C2BD4E8E1A661C08006CFB2B /* pass.png in Resources */,
+				C223428C1A64DD0E00645C32 /* Default-568h@2x.png in Resources */,
+				C2BD4E8F1A661C08006CFB2B /* user.png in Resources */,
 				C22342761A64DC1100645C32 /* LaunchScreen.xib in Resources */,
+				C2BD4E911A663396006CFB2B /* phone.png in Resources */,
 				C22342731A64DC1100645C32 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +252,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C223426E1A64DC1100645C32 /* ViewController.m in Sources */,
+				C223428F1A64E04500645C32 /* SecondViewController.m in Sources */,
+				C223426E1A64DC1100645C32 /* FirstViewController.m in Sources */,
 				C223426B1A64DC1100645C32 /* AppDelegate.m in Sources */,
 				C22342681A64DC1100645C32 /* main.m in Sources */,
 			);
@@ -344,6 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AppSecurityCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +389,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AppSecurityCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +448,7 @@
 				C22342871A64DC1100645C32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C22342881A64DC1100645C32 /* Build configuration list for PBXNativeTarget "AppSecurityCarTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +457,7 @@
 				C223428A1A64DC1100645C32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
