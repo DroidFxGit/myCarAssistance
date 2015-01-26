@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 DroidFx. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "ThirdViewController.h"
 
 @interface FirstViewController ()
 
