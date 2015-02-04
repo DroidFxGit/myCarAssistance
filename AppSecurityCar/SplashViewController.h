@@ -10,9 +10,8 @@
 
 @interface SplashViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UIImageView *splashImage;
-
 @property (strong, nonatomic) IBOutlet UIActivityIndicatorView *splashActivityIndicator;
 
 @property (strong, nonatomic) IBOutlet UILabel *splashMessageStatus;
+
 @end

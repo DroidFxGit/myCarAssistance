@@ -10,14 +10,51 @@
 
 @interface SplashViewController ()
 
+
+@property (nonatomic, readonly) BOOL isStatusBarInitiallyHidden;
+
 @end
 
 @implementation SplashViewController
 
+@synthesize splashActivityIndicator, splashMessageStatus;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"Default-568h@2x_testing"]]];
+    [self.navigationController setNavigationBarHidden:YES];
+    
+    [NSTimer scheduledTimerWithTimeInterval:0.0 target:self selector:@selector(showAnimation:) userInfo:nil repeats:NO];
+    
 }
+
+
+- (void) showAnimation:(NSTimer *) timer {
+    
+    
+    [UIView animateWithDuration:7.0 animations:^{
+        //start animation
+        splashActivityIndicator.alpha = 1.0;
+        splashMessageStatus.alpha = 1.0;
+        [splashActivityIndicator startAnimating];
+    } completion:^(BOOL finished) {
+        //after animation
+        [self performSelector:@selector(showMainMenu) withObject:nil afterDelay:2.0];
+    }];
+    
+    
+}
+
+- (void) showMainMenu {
+    
+    [self performSegueWithIdentifier:@"performHomeView" sender:self];
+}
+
+- (BOOL)prefersStatusBarHidden {
+    
+    return YES;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
