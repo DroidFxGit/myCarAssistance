@@ -52,12 +52,14 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
+    /*
     static NSString *CellIdentifier = @"SwitchCell";
     UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
     cell.textLabel.text = [self.testArray objectAtIndex:indexPath.row];
-    return cell;
+    return cell;*/
+    return nil;
 }
 
 
