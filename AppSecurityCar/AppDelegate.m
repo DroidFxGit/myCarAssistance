@@ -26,6 +26,8 @@
     //ocultar status bar cuando la app inicia
     [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
     
+    [[UITabBar appearance] setTintColor: [UIColor colorWithRed:(50.0/255.0) green:(205.0/255.0) blue:(50.0/255.0) alpha:1.0]];
+    
     return YES;
 }
 

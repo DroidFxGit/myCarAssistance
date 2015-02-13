@@ -6,22 +6,26 @@
 //  Copyright (c) 2015 DroidFx. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "ReportHelpViewController.h"
 
-@interface SecondViewController ()
+@interface ReportHelpViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation ReportHelpViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"reglamento.html" ofType:nil]];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    [self.webContainerRegulations loadRequest:request];
 }
 
 - (void)didReceiveMemoryWarning {
+    
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 /*

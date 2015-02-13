@@ -23,6 +23,7 @@
     self.testArray = [[NSArray alloc] initWithObjects:@"me", @"you",@"them", nil];
     NSLog(@"array %d", [self.testArray count]);
     
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -52,14 +53,13 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    /*
-    static NSString *CellIdentifier = @"SwitchCell";
+    
+    static NSString *CellIdentifier = @"prototypeCell";
     UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
     cell.textLabel.text = [self.testArray objectAtIndex:indexPath.row];
-    return cell;*/
-    return nil;
+    return cell;
 }
 
 

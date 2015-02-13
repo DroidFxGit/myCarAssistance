@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface ReportHelpViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet UIWebView *webContainerRegulations;
 
 @end

@@ -14,7 +14,7 @@
 		C22342731A64DC1100645C32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22342721A64DC1100645C32 /* Images.xcassets */; };
 		C22342761A64DC1100645C32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C22342741A64DC1100645C32 /* LaunchScreen.xib */; };
 		C22342821A64DC1100645C32 /* AppSecurityCarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C22342811A64DC1100645C32 /* AppSecurityCarTests.m */; };
-		C223428F1A64E04500645C32 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C223428E1A64E04500645C32 /* SecondViewController.m */; };
+		C223428F1A64E04500645C32 /* ReportHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C223428E1A64E04500645C32 /* ReportHelpViewController.m */; };
 		C22342911A64E5A000645C32 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C22342901A64E5A000645C32 /* logo.png */; };
 		C2ABBC1D1A75DABA00232E18 /* call_communication_off.png in Resources */ = {isa = PBXBuildFile; fileRef = C2ABBC0D1A75DABA00232E18 /* call_communication_off.png */; };
 		C2ABBC1E1A75DABA00232E18 /* call_communication_on.png in Resources */ = {isa = PBXBuildFile; fileRef = C2ABBC0E1A75DABA00232E18 /* call_communication_on.png */; };
@@ -38,6 +38,7 @@
 		C2BD4E8E1A661C08006CFB2B /* pass.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BD4E8C1A661C08006CFB2B /* pass.png */; };
 		C2BD4E8F1A661C08006CFB2B /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BD4E8D1A661C08006CFB2B /* user.png */; };
 		C2BE1C791A6CBE2D005C362E /* ReportListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BE1C781A6CBE2D005C362E /* ReportListTableViewController.m */; };
+		C2CAC1911A8DB804004FF7C3 /* reglamento.html in Resources */ = {isa = PBXBuildFile; fileRef = C2CAC1901A8DB804004FF7C3 /* reglamento.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,8 +65,8 @@
 		C223427B1A64DC1100645C32 /* AppSecurityCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppSecurityCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22342801A64DC1100645C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C22342811A64DC1100645C32 /* AppSecurityCarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppSecurityCarTests.m; sourceTree = "<group>"; };
-		C223428D1A64E04500645C32 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		C223428E1A64E04500645C32 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C223428D1A64E04500645C32 /* ReportHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportHelpViewController.h; sourceTree = "<group>"; };
+		C223428E1A64E04500645C32 /* ReportHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportHelpViewController.m; sourceTree = "<group>"; };
 		C22342901A64E5A000645C32 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		C2ABBC0D1A75DABA00232E18 /* call_communication_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_communication_off.png; sourceTree = "<group>"; };
 		C2ABBC0E1A75DABA00232E18 /* call_communication_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_communication_on.png; sourceTree = "<group>"; };
@@ -91,6 +92,7 @@
 		C2BD4E8D1A661C08006CFB2B /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 		C2BE1C771A6CBE2D005C362E /* ReportListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportListTableViewController.h; sourceTree = "<group>"; };
 		C2BE1C781A6CBE2D005C362E /* ReportListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportListTableViewController.m; sourceTree = "<group>"; };
+		C2CAC1901A8DB804004FF7C3 /* reglamento.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = reglamento.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,17 +137,18 @@
 		C22342641A64DC1100645C32 /* AppSecurityCar */ = {
 			isa = PBXGroup;
 			children = (
+				C2CAC1901A8DB804004FF7C3 /* reglamento.html */,
 				C22342691A64DC1100645C32 /* AppDelegate.h */,
 				C223426A1A64DC1100645C32 /* AppDelegate.m */,
 				C2B4EDA81A81D78D00065756 /* SplashViewController.h */,
 				C2B4EDA91A81D78D00065756 /* SplashViewController.m */,
-				C223426C1A64DC1100645C32 /* ThirdViewController.h */,
-				C223426D1A64DC1100645C32 /* ThirdViewController.m */,
 				C223426F1A64DC1100645C32 /* Main.storyboard */,
 				C2BE1C771A6CBE2D005C362E /* ReportListTableViewController.h */,
 				C2BE1C781A6CBE2D005C362E /* ReportListTableViewController.m */,
-				C223428D1A64E04500645C32 /* SecondViewController.h */,
-				C223428E1A64E04500645C32 /* SecondViewController.m */,
+				C223428D1A64E04500645C32 /* ReportHelpViewController.h */,
+				C223428E1A64E04500645C32 /* ReportHelpViewController.m */,
+				C223426C1A64DC1100645C32 /* ThirdViewController.h */,
+				C223426D1A64DC1100645C32 /* ThirdViewController.m */,
 				C22342721A64DC1100645C32 /* Images.xcassets */,
 				C22342741A64DC1100645C32 /* LaunchScreen.xib */,
 				C22342651A64DC1100645C32 /* Supporting Files */,
@@ -302,6 +305,7 @@
 				C2ABBC1F1A75DABA00232E18 /* comment_message_off.png in Resources */,
 				C22342711A64DC1100645C32 /* Main.storyboard in Resources */,
 				C2ABBC241A75DABA00232E18 /* file_sheet_on.png in Resources */,
+				C2CAC1911A8DB804004FF7C3 /* reglamento.html in Resources */,
 				C2ABBC201A75DABA00232E18 /* comment_message_on.png in Resources */,
 				C22342911A64E5A000645C32 /* logo.png in Resources */,
 				C2ABBC291A75DABA00232E18 /* letter_mail_off.png in Resources */,
@@ -334,7 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C223428F1A64E04500645C32 /* SecondViewController.m in Sources */,
+				C223428F1A64E04500645C32 /* ReportHelpViewController.m in Sources */,
 				C223426E1A64DC1100645C32 /* ThirdViewController.m in Sources */,
 				C2BE1C791A6CBE2D005C362E /* ReportListTableViewController.m in Sources */,
 				C223426B1A64DC1100645C32 /* AppDelegate.m in Sources */,

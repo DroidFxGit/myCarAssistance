@@ -46,7 +46,7 @@
 }
 
 - (void) showMainMenu {
-    
+    self.view.alpha = 0.5;
     [self performSegueWithIdentifier:@"performHomeView" sender:self];
 }
 
