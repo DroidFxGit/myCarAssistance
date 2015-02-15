@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		C22342681A64DC1100645C32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C22342671A64DC1100645C32 /* main.m */; };
 		C223426B1A64DC1100645C32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C223426A1A64DC1100645C32 /* AppDelegate.m */; };
-		C223426E1A64DC1100645C32 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C223426D1A64DC1100645C32 /* ThirdViewController.m */; };
+		C223426E1A64DC1100645C32 /* TrackingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C223426D1A64DC1100645C32 /* TrackingViewController.m */; };
 		C22342711A64DC1100645C32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C223426F1A64DC1100645C32 /* Main.storyboard */; };
 		C22342731A64DC1100645C32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22342721A64DC1100645C32 /* Images.xcassets */; };
 		C22342761A64DC1100645C32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C22342741A64DC1100645C32 /* LaunchScreen.xib */; };
 		C22342821A64DC1100645C32 /* AppSecurityCarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C22342811A64DC1100645C32 /* AppSecurityCarTests.m */; };
 		C223428F1A64E04500645C32 /* ReportHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C223428E1A64E04500645C32 /* ReportHelpViewController.m */; };
 		C22342911A64E5A000645C32 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C22342901A64E5A000645C32 /* logo.png */; };
+		C2446C201A902E4900145A11 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2446C1F1A902E4900145A11 /* SettingViewController.m */; };
+		C2446C221A9041C300145A11 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2446C211A9041C300145A11 /* MapKit.framework */; };
+		C2446C241A9041CE00145A11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2446C231A9041CE00145A11 /* CoreGraphics.framework */; };
+		C2446C261A9041E000145A11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2446C251A9041E000145A11 /* UIKit.framework */; };
+		C2446C281A9041EE00145A11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2446C271A9041EE00145A11 /* Foundation.framework */; };
 		C2ABBC1D1A75DABA00232E18 /* call_communication_off.png in Resources */ = {isa = PBXBuildFile; fileRef = C2ABBC0D1A75DABA00232E18 /* call_communication_off.png */; };
 		C2ABBC1E1A75DABA00232E18 /* call_communication_on.png in Resources */ = {isa = PBXBuildFile; fileRef = C2ABBC0E1A75DABA00232E18 /* call_communication_on.png */; };
 		C2ABBC1F1A75DABA00232E18 /* comment_message_off.png in Resources */ = {isa = PBXBuildFile; fileRef = C2ABBC0F1A75DABA00232E18 /* comment_message_off.png */; };
@@ -57,8 +62,8 @@
 		C22342671A64DC1100645C32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C22342691A64DC1100645C32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C223426A1A64DC1100645C32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C223426C1A64DC1100645C32 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
-		C223426D1A64DC1100645C32 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		C223426C1A64DC1100645C32 /* TrackingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackingViewController.h; sourceTree = "<group>"; };
+		C223426D1A64DC1100645C32 /* TrackingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackingViewController.m; sourceTree = "<group>"; };
 		C22342701A64DC1100645C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C22342721A64DC1100645C32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C22342751A64DC1100645C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -68,6 +73,12 @@
 		C223428D1A64E04500645C32 /* ReportHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportHelpViewController.h; sourceTree = "<group>"; };
 		C223428E1A64E04500645C32 /* ReportHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportHelpViewController.m; sourceTree = "<group>"; };
 		C22342901A64E5A000645C32 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		C2446C1E1A902E4900145A11 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		C2446C1F1A902E4900145A11 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		C2446C211A9041C300145A11 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C2446C231A9041CE00145A11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C2446C251A9041E000145A11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C2446C271A9041EE00145A11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C2ABBC0D1A75DABA00232E18 /* call_communication_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_communication_off.png; sourceTree = "<group>"; };
 		C2ABBC0E1A75DABA00232E18 /* call_communication_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_communication_on.png; sourceTree = "<group>"; };
 		C2ABBC0F1A75DABA00232E18 /* comment_message_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comment_message_off.png; sourceTree = "<group>"; };
@@ -100,6 +111,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2446C281A9041EE00145A11 /* Foundation.framework in Frameworks */,
+				C2446C261A9041E000145A11 /* UIKit.framework in Frameworks */,
+				C2446C241A9041CE00145A11 /* CoreGraphics.framework in Frameworks */,
+				C2446C221A9041C300145A11 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +131,10 @@
 		C22342591A64DC1100645C32 = {
 			isa = PBXGroup;
 			children = (
+				C2446C271A9041EE00145A11 /* Foundation.framework */,
+				C2446C251A9041E000145A11 /* UIKit.framework */,
+				C2446C231A9041CE00145A11 /* CoreGraphics.framework */,
+				C2446C211A9041C300145A11 /* MapKit.framework */,
 				C2ABBC2D1A75DE5700232E18 /* Default-568h@2x_testing.png */,
 				C2B4EDA61A81D6A100065756 /* Default-568h@2x.png */,
 				C2BD4E871A66192B006CFB2B /* images */,
@@ -147,8 +166,10 @@
 				C2BE1C781A6CBE2D005C362E /* ReportListTableViewController.m */,
 				C223428D1A64E04500645C32 /* ReportHelpViewController.h */,
 				C223428E1A64E04500645C32 /* ReportHelpViewController.m */,
-				C223426C1A64DC1100645C32 /* ThirdViewController.h */,
-				C223426D1A64DC1100645C32 /* ThirdViewController.m */,
+				C223426C1A64DC1100645C32 /* TrackingViewController.h */,
+				C223426D1A64DC1100645C32 /* TrackingViewController.m */,
+				C2446C1E1A902E4900145A11 /* SettingViewController.h */,
+				C2446C1F1A902E4900145A11 /* SettingViewController.m */,
 				C22342721A64DC1100645C32 /* Images.xcassets */,
 				C22342741A64DC1100645C32 /* LaunchScreen.xib */,
 				C22342651A64DC1100645C32 /* Supporting Files */,
@@ -339,8 +360,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C223428F1A64E04500645C32 /* ReportHelpViewController.m in Sources */,
-				C223426E1A64DC1100645C32 /* ThirdViewController.m in Sources */,
+				C223426E1A64DC1100645C32 /* TrackingViewController.m in Sources */,
 				C2BE1C791A6CBE2D005C362E /* ReportListTableViewController.m in Sources */,
+				C2446C201A902E4900145A11 /* SettingViewController.m in Sources */,
 				C223426B1A64DC1100645C32 /* AppDelegate.m in Sources */,
 				C22342681A64DC1100645C32 /* main.m in Sources */,
 				C2B4EDAA1A81D78D00065756 /* SplashViewController.m in Sources */,

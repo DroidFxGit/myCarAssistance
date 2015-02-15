@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 DroidFx. All rights reserved.
 //
 
-#import "ThirdViewController.h"
+#import "TrackingViewController.h"
 
-@interface FirstViewController ()
+@interface TrackingViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation TrackingViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

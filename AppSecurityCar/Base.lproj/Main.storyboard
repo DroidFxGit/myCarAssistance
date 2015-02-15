@@ -13,7 +13,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" id="QUt-aB-hj3">
-                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
@@ -130,7 +130,7 @@
         <!--Tracking-->
         <scene sceneID="2iw-P8-6lo">
             <objects>
-                <viewController id="w25-iX-FNc" sceneMemberID="viewController">
+                <viewController id="w25-iX-FNc" customClass="TrackingViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JNX-KG-roV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
