@@ -131,16 +131,13 @@
 		C22342591A64DC1100645C32 = {
 			isa = PBXGroup;
 			children = (
-				C2446C271A9041EE00145A11 /* Foundation.framework */,
-				C2446C251A9041E000145A11 /* UIKit.framework */,
-				C2446C231A9041CE00145A11 /* CoreGraphics.framework */,
-				C2446C211A9041C300145A11 /* MapKit.framework */,
 				C2ABBC2D1A75DE5700232E18 /* Default-568h@2x_testing.png */,
 				C2B4EDA61A81D6A100065756 /* Default-568h@2x.png */,
 				C2BD4E871A66192B006CFB2B /* images */,
 				C22342641A64DC1100645C32 /* AppSecurityCar */,
 				C223427E1A64DC1100645C32 /* AppSecurityCarTests */,
 				C22342631A64DC1100645C32 /* Products */,
+				C2446C291A906C8700145A11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -201,6 +198,17 @@
 				C22342801A64DC1100645C32 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2446C291A906C8700145A11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2446C271A9041EE00145A11 /* Foundation.framework */,
+				C2446C251A9041E000145A11 /* UIKit.framework */,
+				C2446C231A9041CE00145A11 /* CoreGraphics.framework */,
+				C2446C211A9041C300145A11 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C2ABBC0C1A75DA8500232E18 /* assets_tab_bar */ = {

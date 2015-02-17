@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface TrackingViewController : UIViewController
+@interface TrackingViewController : UIViewController <MKMapViewDelegate>
 
+@property (strong, nonatomic) IBOutlet MKMapView *trackingMapView;
+@property UILabel *userLocationLabel;
 
 
 @end
