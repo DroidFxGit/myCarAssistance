@@ -40,6 +40,7 @@
 		C2ABBC2E1A75DE5700232E18 /* Default-568h@2x_testing.png in Resources */ = {isa = PBXBuildFile; fileRef = C2ABBC2D1A75DE5700232E18 /* Default-568h@2x_testing.png */; };
 		C2B4EDA71A81D6A100065756 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B4EDA61A81D6A100065756 /* Default-568h@2x.png */; };
 		C2B4EDAA1A81D78D00065756 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B4EDA91A81D78D00065756 /* SplashViewController.m */; };
+		C2BA24861A9AA880008D4724 /* profile_user.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BA24851A9AA880008D4724 /* profile_user.png */; };
 		C2BD4E8E1A661C08006CFB2B /* pass.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BD4E8C1A661C08006CFB2B /* pass.png */; };
 		C2BD4E8F1A661C08006CFB2B /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BD4E8D1A661C08006CFB2B /* user.png */; };
 		C2BE1C791A6CBE2D005C362E /* ReportListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BE1C781A6CBE2D005C362E /* ReportListTableViewController.m */; };
@@ -99,6 +100,7 @@
 		C2B4EDA61A81D6A100065756 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C2B4EDA81A81D78D00065756 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
 		C2B4EDA91A81D78D00065756 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		C2BA24851A9AA880008D4724 /* profile_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_user.png; sourceTree = "<group>"; };
 		C2BD4E8C1A661C08006CFB2B /* pass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pass.png; sourceTree = "<group>"; };
 		C2BD4E8D1A661C08006CFB2B /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 		C2BE1C771A6CBE2D005C362E /* ReportListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportListTableViewController.h; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 			children = (
 				C2ABBC0C1A75DA8500232E18 /* assets_tab_bar */,
 				C22342901A64E5A000645C32 /* logo.png */,
+				C2BA24851A9AA880008D4724 /* profile_user.png */,
 				C2BD4E8D1A661C08006CFB2B /* user.png */,
 				C2BD4E8C1A661C08006CFB2B /* pass.png */,
 			);
@@ -345,6 +348,7 @@
 				C2ABBC2C1A75DABA00232E18 /* settings_gear_on.png in Resources */,
 				C22342731A64DC1100645C32 /* Images.xcassets in Resources */,
 				C2B4EDA71A81D6A100065756 /* Default-568h@2x.png in Resources */,
+				C2BA24861A9AA880008D4724 /* profile_user.png in Resources */,
 				C2ABBC271A75DABA00232E18 /* home_off.png in Resources */,
 				C2ABBC211A75DABA00232E18 /* editor_write_off.png in Resources */,
 				C2ABBC261A75DABA00232E18 /* gps_location_on.png in Resources */,

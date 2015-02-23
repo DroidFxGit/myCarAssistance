@@ -10,18 +10,78 @@
 
 @interface SettingViewController ()
 
+@property UIActionSheet *optionsMenu;
+
 @end
 
 @implementation SettingViewController
 
+@synthesize pickedImage;
+@synthesize buttonImage;
+@synthesize optionsMenu;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+
+#pragma mark - Select Image
+- (IBAction)selectImage:(id)sender {
+    
+    buttonImage.hidden = YES;
+    
+    optionsMenu = [[UIActionSheet alloc] initWithTitle:@"Seleccione el origen de la imagen de su preferencia"
+                                              delegate:self
+                                     cancelButtonTitle:@"Cancelar"
+                                destructiveButtonTitle:nil
+                                     otherButtonTitles:@"Seleccionar de la galeria", @"tomar nueva foto", nil
+                   ];
+    
+    [optionsMenu showInView:self.view];
+    
+}
+
+
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+    
+    //consigue el nombre del botón presionado
+    NSString *buttonTitle = [optionsMenu buttonTitleAtIndex:buttonIndex];
+    
+    switch (buttonIndex) {
+        case 0:
+            NSLog(@"button clicked: %@", buttonTitle);
+            break;
+        case 1:
+            NSLog(@"button clicked: %@", buttonTitle);
+            
+        case 2:
+            NSLog(@"button clicked: %@", buttonTitle);
+            buttonImage.hidden = NO;
+            break;
+            
+        default:
+            break;
+    }
+    
+}
+
+//deprecated: Implement with new UIAlertController for new versions
+- (void)willPresentActionSheet:(UIActionSheet *)actionSheet {
+    
+    for (UIView *subView in actionSheet.subviews) {
+        if ([subView isKindOfClass:[UIButton class]]) {
+            UIButton *button = (UIButton *)subView;
+            [button setTitleColor:[UIColor greenColor] forState:UIControlStateNormal];
+        }
+    }
+    
 }
 
 /*
