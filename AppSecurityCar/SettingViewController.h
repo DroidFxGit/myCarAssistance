@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SettingViewController : UITableViewController <UIActionSheetDelegate>
+@interface SettingViewController : UITableViewController <UIActionSheetDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
 @property (strong, nonatomic) IBOutlet UIImageView *pickedImage;
 @property (strong, nonatomic) IBOutlet UIButton *buttonImage;
