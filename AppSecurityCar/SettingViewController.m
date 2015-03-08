@@ -21,9 +21,15 @@
 @synthesize buttonImage;
 @synthesize optionsMenu;
 @synthesize picker;
+@synthesize firstSecName, firstSecSurname, firstSecAddress, firstSecCity, firstSecCP,
+secondSecType, secondSecNum, secondSecDateExp, secondSecMat;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    [self loadDataforSettings];
+    
     pickedImage.layer.cornerRadius = self.pickedImage.frame.size.width / 2;
     //pickedImage.layer.borderWidth = 3.0f;
     //pickedImage.layer.borderColor = [UIColor lightGrayColor].CGColor;
@@ -34,6 +40,12 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    
+    [super viewDidAppear:animated];
+    
 }
 
 
@@ -53,6 +65,7 @@
     [optionsMenu showInView:self.view];
     
 }
+
 
 
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
@@ -150,7 +163,38 @@
 
 
 
-#pragma mark - dismiss
+#pragma mark - save info / load data
+
+- (IBAction)saveDataforSettings:(id)sender {
+    
+    [[NSUserDefaults standardUserDefaults] setObject:firstSecName.text forKey:@"preferenceName"];
+    
+    UIImage *preferenceImage = pickedImage.image;
+    NSData *imageData = UIImagePNGRepresentation(preferenceImage);
+    [[NSUserDefaults standardUserDefaults] setObject:imageData forKey:@"preferenceImage"];
+    
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    
+}
+
+
+- (void) loadDataforSettings {
+    
+    //profile image
+    NSData *imageData = [[NSUserDefaults standardUserDefaults] objectForKey:@"preferenceImage"];
+    if (imageData) {
+        
+        UIImage *imageSet = [UIImage imageWithData:imageData];
+        pickedImage.image = imageSet;
+        
+    }
+    
+    
+    //personal data
+    firstSecName.text = [[NSUserDefaults standardUserDefaults]
+                         stringForKey:@"preferenceName"];
+    
+}
 
 /*
 #pragma mark - Navigation

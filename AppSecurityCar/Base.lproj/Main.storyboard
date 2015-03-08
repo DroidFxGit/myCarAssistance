@@ -149,46 +149,53 @@
             <point key="canvasLocation" x="-102" y="1085"/>
         </scene>
         <!--Tracking-->
-        <scene sceneID="2iw-P8-6lo">
+        <scene sceneID="FHM-18-FcO">
             <objects>
-                <viewController id="w25-iX-FNc" customClass="TrackingViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="8Cx-51-ltI"/>
-                        <viewControllerLayoutGuide type="bottom" id="kWi-QW-8BV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="JNX-KG-roV">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="j2p-bj-sG4">
-                                <rect key="frame" x="0.0" y="64" width="320" height="455"/>
-                            </mapView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Cv-T8-5Em">
-                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
-                                <color key="barTintColor" red="0.19607843137254902" green="0.80392156862745101" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
-                                <textAttributes key="titleTextAttributes">
-                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="textShadowColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
-                                </textAttributes>
-                                <items>
-                                    <navigationItem title="Encuentra mi auto" id="ZdY-Il-cBf"/>
-                                </items>
-                            </navigationBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Tracking" image="gps_location_off.png" selectedImage="gps_location_on.png" id="CYJ-JY-ezO">
+                <navigationController id="UsX-li-tSF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Tracking" image="gps_location_off.png" selectedImage="gps_location_on.png" id="prk-oM-XIz">
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="gps_location_on"/>
                         </userDefinedRuntimeAttributes>
                     </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="53E-Rl-VGc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.1960784314" green="0.80392156859999997" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
                     <connections>
-                        <outlet property="trackingMapView" destination="j2p-bj-sG4" id="awX-Um-pDj"/>
+                        <segue destination="b3l-iT-eDD" kind="relationship" relationship="rootViewController" id="Cen-6j-fcU"/>
                     </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="03b-2R-cKz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1bf-oE-vY6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="596" y="640"/>
+        </scene>
+        <!--Rastrear mi Auto-->
+        <scene sceneID="HG0-8D-L9s">
+            <objects>
+                <viewController id="b3l-iT-eDD" customClass="TrackingViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tXr-fT-jzc"/>
+                        <viewControllerLayoutGuide type="bottom" id="2ZH-Gw-cQD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5y0-jz-lIx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="jst-LZ-k5z">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Rastrear mi Auto" id="k23-S6-x5N"/>
+                    <connections>
+                        <outlet property="trackingMapView" destination="jst-LZ-k5z" id="vn0-y6-xeF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KVe-2Y-rdL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1066" y="640"/>
         </scene>
         <!--Ajustes-->
         <scene sceneID="pW0-n9-UwY">
@@ -363,11 +370,23 @@
                     <navigationItem key="navigationItem" title="Ajustes" id="347-ie-GLc">
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="wEb-u7-yht">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="saveDataforSettings:" destination="mNG-og-Xbv" id="TFp-Z5-ILx"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="buttonImage" destination="Wc4-AI-PaA" id="81k-9A-TIN"/>
+                        <outlet property="firstSecAddress" destination="oem-3R-0MY" id="Uho-cT-bzj"/>
+                        <outlet property="firstSecCP" destination="2Ct-RF-zPq" id="NCG-gk-LrX"/>
+                        <outlet property="firstSecCity" destination="VIi-SN-fl9" id="e5K-sC-8tM"/>
+                        <outlet property="firstSecName" destination="gIH-Jh-2Kf" id="WED-DL-mqr"/>
+                        <outlet property="firstSecSurname" destination="RHf-NR-0sj" id="QtR-4E-N3A"/>
                         <outlet property="pickedImage" destination="RaB-Uo-I1i" id="2xr-3V-VfH"/>
+                        <outlet property="secondSecDateExp" destination="YgC-hy-eWP" id="8Lh-U9-far"/>
+                        <outlet property="secondSecMat" destination="R7U-KO-jDr" id="pHT-IB-hFf"/>
+                        <outlet property="secondSecNum" destination="eVt-C1-iP6" id="xGq-RE-bqj"/>
+                        <outlet property="secondSecType" destination="Kvs-ys-YPT" id="heQ-2a-ijz"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B4p-5F-0pS" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -570,7 +589,7 @@
                         <segue destination="BTg-aG-0kc" kind="modal" identifier="login_modal" id="01V-oD-leE"/>
                         <segue destination="zFj-wo-f3N" kind="relationship" relationship="viewControllers" id="I8t-0g-bx0"/>
                         <segue destination="Ahj-7I-xLe" kind="relationship" relationship="viewControllers" id="4CL-3T-tRU"/>
-                        <segue destination="w25-iX-FNc" kind="relationship" relationship="viewControllers" id="NQg-QX-HBA"/>
+                        <segue destination="UsX-li-tSF" kind="relationship" relationship="viewControllers" id="xDr-jC-F33"/>
                         <segue destination="uPx-9R-r0N" kind="relationship" relationship="viewControllers" id="7dq-yM-ugc"/>
                     </connections>
                 </tabBarController>

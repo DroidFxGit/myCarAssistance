@@ -15,4 +15,22 @@
 
 - (IBAction)selectImage:(id)sender;
 
+- (IBAction)saveDataforSettings:(id)sender;
+
+
+#pragma mark - textfields
+
+@property (strong, nonatomic) IBOutlet UITextField *firstSecName;
+@property (strong, nonatomic) IBOutlet UITextField *firstSecSurname;
+@property (strong, nonatomic) IBOutlet UITextField *firstSecAddress;
+@property (strong, nonatomic) IBOutlet UITextField *firstSecCP;
+@property (strong, nonatomic) IBOutlet UITextField *firstSecCity;
+
+
+@property (strong, nonatomic) IBOutlet UITextField *secondSecType;
+@property (strong, nonatomic) IBOutlet UITextField *secondSecNum;
+@property (strong, nonatomic) IBOutlet UITextField *secondSecDateExp;
+@property (strong, nonatomic) IBOutlet UITextField *secondSecMat;
+
+
 @end
