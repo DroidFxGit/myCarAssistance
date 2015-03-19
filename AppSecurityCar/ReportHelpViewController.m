@@ -10,6 +10,7 @@
 
 @interface ReportHelpViewController ()
 
+
 @end
 
 @implementation ReportHelpViewController
@@ -17,15 +18,28 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"reglamento.html" ofType:nil]];
-    NSURLRequest *request = [NSURLRequest requestWithURL:url];
-    [self.webContainerRegulations loadRequest:request];
+    [self loadHomeViewWebView];
 }
 
 - (void)didReceiveMemoryWarning {
     
     [super didReceiveMemoryWarning];
     
+}
+
+
+- (void)loadHomeViewWebView {
+    
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"menu_reglamento.html" ofType:nil]];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    [self.webContainerRegulations loadRequest:request];
+}
+
+
+- (IBAction)goToHomeView:(id)sender {
+    
+    [self loadHomeViewWebView];
+
 }
 
 /*
@@ -37,5 +51,6 @@
     // Pass the selected object to the new view controller.
 }
 */
+
 
 @end

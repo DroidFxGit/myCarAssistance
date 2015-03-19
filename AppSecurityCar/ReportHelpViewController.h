@@ -12,4 +12,6 @@
 
 @property (strong, nonatomic) IBOutlet UIWebView *webContainerRegulations;
 
+- (IBAction)goToHomeView:(id)sender;
+
 @end

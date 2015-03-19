@@ -21,7 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"Default-568h@2x_testing"]]];
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"Default-568h@2x_gradient"]]];
     [self.navigationController setNavigationBarHidden:YES];
     
     [NSTimer scheduledTimerWithTimeInterval:0.0 target:self selector:@selector(showAnimation:) userInfo:nil repeats:NO];
