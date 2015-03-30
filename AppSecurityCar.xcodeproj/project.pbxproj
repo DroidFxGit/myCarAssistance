@@ -44,6 +44,7 @@
 		C2BD4E8E1A661C08006CFB2B /* pass.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BD4E8C1A661C08006CFB2B /* pass.png */; };
 		C2BD4E8F1A661C08006CFB2B /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BD4E8D1A661C08006CFB2B /* user.png */; };
 		C2BE1C791A6CBE2D005C362E /* ReportListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BE1C781A6CBE2D005C362E /* ReportListTableViewController.m */; };
+		C2BFAF381AC88C07008E08AA /* NewReportListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BFAF371AC88C07008E08AA /* NewReportListTableViewController.m */; };
 		C2C0D1E21AB7AFE3005473A8 /* menu_reglamento.html in Resources */ = {isa = PBXBuildFile; fileRef = C2C0D1E01AB7AFE3005473A8 /* menu_reglamento.html */; };
 		C2C0D1E31AB7AFE3005473A8 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = C2C0D1E11AB7AFE3005473A8 /* style.css */; };
 		C2C0D1E91AB7D167005473A8 /* art1.html in Resources */ = {isa = PBXBuildFile; fileRef = C2C0D1E51AB7D167005473A8 /* art1.html */; };
@@ -51,6 +52,8 @@
 		C2C0D1EB1AB7D167005473A8 /* art3.html in Resources */ = {isa = PBXBuildFile; fileRef = C2C0D1E71AB7D167005473A8 /* art3.html */; };
 		C2C0D1EC1AB7D167005473A8 /* art4.html in Resources */ = {isa = PBXBuildFile; fileRef = C2C0D1E81AB7D167005473A8 /* art4.html */; };
 		C2F1C6F11AB1556F005FAD96 /* Default-568h@2x_gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F1C6F01AB1556F005FAD96 /* Default-568h@2x_gradient.png */; };
+		C2FF5D3F1AC8CF5500386C1B /* OptionsCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FF5D3E1AC8CF5500386C1B /* OptionsCellTableViewCell.m */; };
+		C2FF5D421AC8D06B00386C1B /* OptionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FF5D411AC8D06B00386C1B /* OptionsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +115,8 @@
 		C2BD4E8D1A661C08006CFB2B /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 		C2BE1C771A6CBE2D005C362E /* ReportListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportListTableViewController.h; sourceTree = "<group>"; };
 		C2BE1C781A6CBE2D005C362E /* ReportListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportListTableViewController.m; sourceTree = "<group>"; };
+		C2BFAF361AC88C07008E08AA /* NewReportListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewReportListTableViewController.h; sourceTree = "<group>"; };
+		C2BFAF371AC88C07008E08AA /* NewReportListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewReportListTableViewController.m; sourceTree = "<group>"; };
 		C2C0D1E01AB7AFE3005473A8 /* menu_reglamento.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = menu_reglamento.html; sourceTree = "<group>"; };
 		C2C0D1E11AB7AFE3005473A8 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		C2C0D1E51AB7D167005473A8 /* art1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = art1.html; sourceTree = "<group>"; };
@@ -119,6 +124,10 @@
 		C2C0D1E71AB7D167005473A8 /* art3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = art3.html; sourceTree = "<group>"; };
 		C2C0D1E81AB7D167005473A8 /* art4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = art4.html; sourceTree = "<group>"; };
 		C2F1C6F01AB1556F005FAD96 /* Default-568h@2x_gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x_gradient.png"; sourceTree = "<group>"; };
+		C2FF5D3D1AC8CF5500386C1B /* OptionsCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsCellTableViewCell.h; sourceTree = "<group>"; };
+		C2FF5D3E1AC8CF5500386C1B /* OptionsCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsCellTableViewCell.m; sourceTree = "<group>"; };
+		C2FF5D401AC8D06B00386C1B /* OptionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsTableViewController.h; sourceTree = "<group>"; };
+		C2FF5D411AC8D06B00386C1B /* OptionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,8 +187,14 @@
 				C2B4EDA81A81D78D00065756 /* SplashViewController.h */,
 				C2B4EDA91A81D78D00065756 /* SplashViewController.m */,
 				C223426F1A64DC1100645C32 /* Main.storyboard */,
+				C2FF5D401AC8D06B00386C1B /* OptionsTableViewController.h */,
+				C2FF5D411AC8D06B00386C1B /* OptionsTableViewController.m */,
+				C2FF5D3D1AC8CF5500386C1B /* OptionsCellTableViewCell.h */,
+				C2FF5D3E1AC8CF5500386C1B /* OptionsCellTableViewCell.m */,
 				C2BE1C771A6CBE2D005C362E /* ReportListTableViewController.h */,
 				C2BE1C781A6CBE2D005C362E /* ReportListTableViewController.m */,
+				C2BFAF361AC88C07008E08AA /* NewReportListTableViewController.h */,
+				C2BFAF371AC88C07008E08AA /* NewReportListTableViewController.m */,
 				C223428D1A64E04500645C32 /* ReportHelpViewController.h */,
 				C223428E1A64E04500645C32 /* ReportHelpViewController.m */,
 				C223426C1A64DC1100645C32 /* TrackingViewController.h */,
@@ -406,13 +421,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2FF5D3F1AC8CF5500386C1B /* OptionsCellTableViewCell.m in Sources */,
 				C223428F1A64E04500645C32 /* ReportHelpViewController.m in Sources */,
 				C223426E1A64DC1100645C32 /* TrackingViewController.m in Sources */,
 				C2BE1C791A6CBE2D005C362E /* ReportListTableViewController.m in Sources */,
 				C2446C201A902E4900145A11 /* SettingViewController.m in Sources */,
 				C223426B1A64DC1100645C32 /* AppDelegate.m in Sources */,
+				C2FF5D421AC8D06B00386C1B /* OptionsTableViewController.m in Sources */,
 				C22342681A64DC1100645C32 /* main.m in Sources */,
 				C2B4EDAA1A81D78D00065756 /* SplashViewController.m in Sources */,
+				C2BFAF381AC88C07008E08AA /* NewReportListTableViewController.m in Sources */,
 				C28B20DD1AB6895F006C7E91 /* Report.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -540,7 +558,7 @@
 				INFOPLIST_FILE = AppSecurityCar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AppSecurityCar;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -554,7 +572,7 @@
 				INFOPLIST_FILE = AppSecurityCar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AppSecurityCar;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -573,7 +591,7 @@
 				);
 				INFOPLIST_FILE = AppSecurityCarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AppSecurityCarTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppSecurityCar.app/AppSecurityCar";
 			};
 			name = Debug;
@@ -588,7 +606,7 @@
 				);
 				INFOPLIST_FILE = AppSecurityCarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AppSecurityCarTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppSecurityCar.app/AppSecurityCar";
 			};
 			name = Release;
