@@ -12,12 +12,14 @@
 @interface OptionsTableViewController ()
 
 @property NSMutableArray *optionsForSelectArray;
+@property NSMutableArray *imagesForSelections;
 
 @end
 
 @implementation OptionsTableViewController
 
 @synthesize optionsForSelectArray;
+@synthesize imagesForSelections;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -37,6 +39,11 @@
                                                         @"El otro vehículo no respeto el semáforo",
                                                         @"Otro...", nil];
     
+    imagesForSelections = [NSMutableArray arrayWithObjects: @"selection_001.jpg", @"selection_002.jpg",@"selection_003.jpg",
+                                                            @"selection_004.jpg", @"selection_005.jpg",@"selection_006.jpg",
+                                                            @"selection_007.jpg", @"selection_008.jpg",@"selection_009.jpg",
+                                                            @"selection_010.jpg", @"selection_011.jpg",@"selection_012.jpg",
+                                                            @"selection_013.jpg", @"selection_014.jpg", nil];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -70,6 +77,7 @@
     OptionsCellTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"optionsCell" forIndexPath:indexPath];
     
     cell.titleOption.text = optionsForSelectArray[indexPath.row];
+    cell.imageOption.image = [UIImage imageNamed:imagesForSelections[indexPath.row]];
     
     return cell;
 }

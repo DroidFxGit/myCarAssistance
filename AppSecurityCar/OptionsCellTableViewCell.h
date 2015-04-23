@@ -11,5 +11,6 @@
 @interface OptionsCellTableViewCell : UITableViewCell
 
 @property (strong, nonatomic) IBOutlet UILabel *titleOption;
+@property (strong, nonatomic) IBOutlet UIImageView *imageOption;
 
 @end
