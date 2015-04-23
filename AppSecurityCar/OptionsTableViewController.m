@@ -78,6 +78,10 @@
     
     cell.titleOption.text = optionsForSelectArray[indexPath.row];
     cell.imageOption.image = [UIImage imageNamed:imagesForSelections[indexPath.row]];
+//    cell.imageOption.layer.cornerRadius = 7.5f;
+//    cell.imageOption.layer.borderWidth = 1.5f;
+//    cell.imageOption.layer.borderColor = [UIColor lightGrayColor].CGColor;
+//    cell.imageOption.layer.masksToBounds = YES;
     
     return cell;
 }
