@@ -65,6 +65,8 @@
 		C2C0D1EA1AB7D167005473A8 /* art2.html in Resources */ = {isa = PBXBuildFile; fileRef = C2C0D1E61AB7D167005473A8 /* art2.html */; };
 		C2C0D1EB1AB7D167005473A8 /* art3.html in Resources */ = {isa = PBXBuildFile; fileRef = C2C0D1E71AB7D167005473A8 /* art3.html */; };
 		C2C0D1EC1AB7D167005473A8 /* art4.html in Resources */ = {isa = PBXBuildFile; fileRef = C2C0D1E81AB7D167005473A8 /* art4.html */; };
+		C2D712651B142F7600CD8866 /* DamageOptionsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D712641B142F7600CD8866 /* DamageOptionsTableViewCell.m */; };
+		C2D712681B14308900CD8866 /* DamageOptionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D712671B14308900CD8866 /* DamageOptionTableViewController.m */; };
 		C2F1C6F11AB1556F005FAD96 /* Default-568h@2x_gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F1C6F01AB1556F005FAD96 /* Default-568h@2x_gradient.png */; };
 		C2FF5D3F1AC8CF5500386C1B /* OptionsCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FF5D3E1AC8CF5500386C1B /* OptionsCellTableViewCell.m */; };
 		C2FF5D421AC8D06B00386C1B /* OptionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FF5D411AC8D06B00386C1B /* OptionsTableViewController.m */; };
@@ -151,6 +153,10 @@
 		C2C0D1E61AB7D167005473A8 /* art2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = art2.html; sourceTree = "<group>"; };
 		C2C0D1E71AB7D167005473A8 /* art3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = art3.html; sourceTree = "<group>"; };
 		C2C0D1E81AB7D167005473A8 /* art4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = art4.html; sourceTree = "<group>"; };
+		C2D712631B142F7600CD8866 /* DamageOptionsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DamageOptionsTableViewCell.h; sourceTree = "<group>"; };
+		C2D712641B142F7600CD8866 /* DamageOptionsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DamageOptionsTableViewCell.m; sourceTree = "<group>"; };
+		C2D712661B14308900CD8866 /* DamageOptionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DamageOptionTableViewController.h; sourceTree = "<group>"; };
+		C2D712671B14308900CD8866 /* DamageOptionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DamageOptionTableViewController.m; sourceTree = "<group>"; };
 		C2F1C6F01AB1556F005FAD96 /* Default-568h@2x_gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x_gradient.png"; sourceTree = "<group>"; };
 		C2FF5D3D1AC8CF5500386C1B /* OptionsCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsCellTableViewCell.h; sourceTree = "<group>"; };
 		C2FF5D3E1AC8CF5500386C1B /* OptionsCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsCellTableViewCell.m; sourceTree = "<group>"; };
@@ -236,6 +242,10 @@
 				C2B4EDA81A81D78D00065756 /* SplashViewController.h */,
 				C2B4EDA91A81D78D00065756 /* SplashViewController.m */,
 				C223426F1A64DC1100645C32 /* Main.storyboard */,
+				C2D712661B14308900CD8866 /* DamageOptionTableViewController.h */,
+				C2D712671B14308900CD8866 /* DamageOptionTableViewController.m */,
+				C2D712631B142F7600CD8866 /* DamageOptionsTableViewCell.h */,
+				C2D712641B142F7600CD8866 /* DamageOptionsTableViewCell.m */,
 				C2FF5D401AC8D06B00386C1B /* OptionsTableViewController.h */,
 				C2FF5D411AC8D06B00386C1B /* OptionsTableViewController.m */,
 				C2FF5D3D1AC8CF5500386C1B /* OptionsCellTableViewCell.h */,
@@ -320,6 +330,7 @@
 		C2BD4E871A66192B006CFB2B /* images */ = {
 			isa = PBXGroup;
 			children = (
+				C2D712621B142E1C00CD8866 /* damage_options */,
 				C21AE1191AE8A8F80058825C /* option_images */,
 				C2ABBC0C1A75DA8500232E18 /* assets_tab_bar */,
 				C22342901A64E5A000645C32 /* logo.png */,
@@ -340,6 +351,13 @@
 			);
 			name = html_files;
 			path = cap1;
+			sourceTree = "<group>";
+		};
+		C2D712621B142E1C00CD8866 /* damage_options */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = damage_options;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -486,6 +504,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2FF5D3F1AC8CF5500386C1B /* OptionsCellTableViewCell.m in Sources */,
+				C2D712651B142F7600CD8866 /* DamageOptionsTableViewCell.m in Sources */,
 				C223428F1A64E04500645C32 /* ReportHelpViewController.m in Sources */,
 				C223426E1A64DC1100645C32 /* TrackingViewController.m in Sources */,
 				C2BE1C791A6CBE2D005C362E /* ReportListTableViewController.m in Sources */,
@@ -495,6 +514,7 @@
 				C22342681A64DC1100645C32 /* main.m in Sources */,
 				C2B4EDAA1A81D78D00065756 /* SplashViewController.m in Sources */,
 				C2BFAF381AC88C07008E08AA /* NewReportListTableViewController.m in Sources */,
+				C2D712681B14308900CD8866 /* DamageOptionTableViewController.m in Sources */,
 				C28B20DD1AB6895F006C7E91 /* Report.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

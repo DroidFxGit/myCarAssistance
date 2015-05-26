@@ -44,6 +44,7 @@
                                                             @"selection_007.jpg", @"selection_008.jpg",@"selection_009.jpg",
                                                             @"selection_010.jpg", @"selection_011.jpg",@"selection_012.jpg",
                                                             @"selection_013.jpg", @"selection_014.jpg", nil];
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
